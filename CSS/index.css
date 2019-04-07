@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'helvetica', 'sans-serif';
+	font-size: 14px;
+}
+
+header {
+	background-color: #233656;
+	color: #eeeeee;
+}
+
+#logoHeader {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+	width: 198px;
+	height: 91px;
+}
+
+nav {
+	margin-left: 250px;
+}
+
+nav li {
+	list-style: none;
+	text-align: left;
+	padding: 20px 0px 20px 0px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+nav a {
+	color: #eeeeee;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+/*hoofdmenu item waarover wordt gehoverd wordt rood*/
+nav a:hover {
+	color: #CC1F00;
+}
+
+/*hoofdmenu item waar op wordt geklikt wordt bold*/
+nav a:active {
+	font-weight: bold;
+}
+
+/*hoofdmenu item dat is geselecteerd wordt bold*/
+nav li.selected {
+	font-weight: bold;
+	/*er moet nog een rode lijn onder het item komen*/
+}
